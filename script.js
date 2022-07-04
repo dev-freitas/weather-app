@@ -108,8 +108,8 @@ function showWeatherData (data){
 (function() {
     var s = document.querySelector('body').style,
         f = false,
-        c1 = "url('/images/img3.png')",
-        c2 = "url('/images/img2.png')";
+        c1 = "url('images/img1.png')",
+        c2 = "url('images/img2.png')";
 
     setInterval(function() {
         s.background = f ? c1 : c2;
